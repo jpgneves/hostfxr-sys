@@ -37,3 +37,6 @@ doc-cfg = []
 [package.metadata.docs.rs]
 features = ["latest", "doc-cfg"]
 no-default-features = true
+
+[patch.crates-io]
+dlopen2 = { git = 'https://github.com/jpgneves/dlopen2.git', branch = 'rust-1.87' }
